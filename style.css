@@ -1,20 +1,54 @@
 :root {
-    /* colors */
+  /* colors */
 
-    --white: hsl(0, 0%, 100%);
-    --slate-300: hsl(212, 45%, 89%);
-    --slate-500: hsl(216, 15%, 48%);
-    --slate-900: hsl(218, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
 
-    /* widths */
+  /* Fontsize */
+  --base-font-size: 15px;
+  /* font */
+  --font-family: 'Outfit', sans-serif;
+}
 
-    --mobile-width: 375px;
-    --desktop-width: 1440px;
+body {
+  background: var(--slate-300);
+  font-size: var(--base-font-size);
+  font-family: var(--font-family);
+}
 
-    /* Fontsize */
-    --base-font-size: 15px;
-    /* font */
-    --font-family: 'Outfit', sans-serif;
-    --weight-normal: 400;
-    --weight-bold: 700;
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.inner {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 16px;
+  max-width: 320px;
+  padding: 24px;
+  border-radius: 20px;
+  background: var(--white);
+  text-align: center;
+}
+
+.inner img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.inner p:first-of-type {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--slate-900);
+}
+
+.inner p:last-of-type {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--slate-500);
 }
