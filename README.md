@@ -9,7 +9,7 @@ This is a solution to the QR code component challenge on Frontend Mentor.
 ## Links
 
 - Solution URL: https://www.frontendmentor.io/solutions/your-solution-url
-- Live Site URL: https://frontend-mentor-qr-code-component.vercel.app
+- Live Site URL: https://frontend-mentor-qr-code-component-virid.vercel.app/
 
 ## Built with
 
